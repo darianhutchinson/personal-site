@@ -2,22 +2,40 @@ import './navbar.css';
 import React from 'react';
 import {  Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Navbar = () => {
-  return (
-  <div className="nav-bar">
-    <li className="nav-item">
-      <Link to="/" className="nav-link text-white">About Me</Link>
-    </li>
-    <li className="nav-item">
-      <Link to="/previousWork" className="nav-link text-white">Previous Work</Link>
-    </li>
-    <li className="nav-item">
-      <Link to="/projects" className="nav-link text-white">Projects</Link>
-    </li>
-    <li className="nav-item">
-      <Link to="/contact" className="nav-link text-white">Contact Me</Link>
-    </li>
-  </div>
+import {
+    Navbar,
+    NavItem,
+    NavbarToggler,
+    Collapse,
+    NavLink,
+    Nav
+} from 'reactstrap';
+const Navigation = () => {
+  const [isOpen, setIsOpen] = React.useState(false); 
+    return (
+        <div style={{
+            display: 'block',
+        }}>
+            <Navbar color="light" light expand="md">
+                <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav navbar>
+                        <NavItem>
+                            <NavLink href="/">About Me</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/previousWork">Previous Work</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/projects">Projects</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/contact">Contact</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div >
   ); 
 };  
-export default Navbar;
+export default Navigation;
