@@ -1,0 +1,33 @@
+/*
+I am using lots of !important here because there are preset navbar settings in the scss files
+*/
+.navbar {
+  background-color: #41403c;
+  padding: 0 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.navbar-toggler {
+  background-color: #41403c !important;
+  border: none !important;
+  margin: 4px !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.nav-link {
+  color: #edefee !important;
+  padding: 16px !important;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  background-color: #d08856;
+}

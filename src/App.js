@@ -12,7 +12,8 @@ function App() {
     <Router>
       <Navigation />
       <Switch>
-        <Route path='/' exact component={About} />
+        <Route path='/personal-site' exact component={About} />
+        <Route path='/about' exact component={About} />
         <Route path='/contact' component={Contact} />
         <Route path='/previousWork' component={PreviousWork} />
         <Route path='/projects' component={Projects} />

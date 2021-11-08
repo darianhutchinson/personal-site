@@ -16,12 +16,12 @@ const Navigation = () => {
         <div style={{
             display: 'block',
         }}>
-            <Navbar color="light" light expand="md">
+            <Navbar light expand="md">
                 <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="/">About Me</NavLink>
+                            <NavLink href="/about">About Me</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/previousWork">Previous Work</NavLink>
