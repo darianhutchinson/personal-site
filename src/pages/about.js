@@ -1,12 +1,16 @@
 import React from 'react';
+import Image from '../img/headshot.jpg'
+import './about.css';
 const About = () =>{
   return (
-    <div>
-      <h3>About Me</h3>
-      <div>
-          <p>This is my About Me page!</p>
-      </div>
-    </div>
+      <body className="bg-light">
+        <div className="banner">
+          <img className="headshot" src={Image} alt="headshot"></img> 
+        </div> 
+        <div className="about-content">
+          <h1 className="job-title">Software Developer</h1>
+        </div>
+      </body> 
   );
 }
 export default About;

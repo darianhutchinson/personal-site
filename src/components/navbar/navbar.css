@@ -17,11 +17,6 @@ I am using lots of !important here because there are preset navbar settings in t
   box-shadow: none !important;
 }
 
-.navbar-toggler-icon:hover {
-  height: 35px;
-  width: 35px;
-}
-
 .nav-link {
   color: #edefee !important;
   padding: 16px !important;
