@@ -1,26 +1,52 @@
-.banner {
+.card-container {
   display: flex;
   justify-content: center;
+  padding-top: 40px;
   flex-wrap: wrap;
-  padding-top: 50px;
+}
+
+.card {
+  align-items: center;
+  width: 30%;
+  border: none;
 }
 
 .headshot {
   border-radius: 100%;
-  border: 20px solid white;
-  width: 300px;
-  height: 300px;
-  z-index: 9;
-  position: relative;
+  box-shadow: 0 0 0 1em white;
+  width: 100%;
 }
 
-.about-content {
-  display: flex;
-  justify-content: center;
+.container {
+  width: 72%;
+  background-color: white;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .job-title {
-  background-color: white;
-  padding: 50px;
+  font-weight: 900;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #41404c;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: #d08856;
+  color: white;
+}
+
+.empty-div {
+  padding: 300px;
 }
