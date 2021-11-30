@@ -1,0 +1,9 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+}
