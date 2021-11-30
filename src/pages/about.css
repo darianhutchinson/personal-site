@@ -23,6 +23,9 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 100px;
 }
 
 .job-title {
@@ -49,4 +52,10 @@ p {
 
 .empty-div {
   padding: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 25%;
+  }
 }
