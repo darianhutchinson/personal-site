@@ -6,7 +6,7 @@ const Contact = () =>{
       <div className="heading">
         <p className="contact-p">Feel free to ask me any questions!</p>
       </div> 
-      <form className="">
+      <form>
         <div class="form-group">
           <label for="fName">First Name</label>
           <input type="text" className="form-control" id="fName" placeholder="Your first name here..."></input>

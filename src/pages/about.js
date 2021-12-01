@@ -3,9 +3,9 @@ import Image from '../img/headshot.jpg'
 import './about.css';
 const About = () =>{
   return (
-      <body className="bg-light">
+      <body>
         <div className="card-container">
-          <div className="card bg-light">
+          <div className="card">
             <img className="headshot" src={Image} alt="headshot"></img> 
           </div> 
           <div className="container">

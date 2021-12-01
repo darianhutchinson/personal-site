@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.projects-txt {
+  color: #d08856;
+}
+
+.projects-grid {
+  grid-gap: 0;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.projects-grid-item {
+  border: none;
+  height: 100%;
+  padding: 0;
+  margin: 5%;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.pokemon {
+  width: 50%;
+}
+
+.castle {
+  width: 50%;
+}
+
+.project-button {
+  padding-top: 30px;
+}
+
+.project-p {
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-grid-item {
+    padding: 30px;
+  }
+}

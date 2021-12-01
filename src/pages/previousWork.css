@@ -1,9 +1,36 @@
+.previous-work-header {
+  margin: 25px;
+  font-weight: bold;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  grid-gap: 5%;
 }
 
 .icon {
-  height: 32px;
-  width: 32px;
+  height: 90px;
+  width: 90px;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.icon:hover {
+  background-color: #d08856;
+}
+
+.icon-title {
+  margin: 0;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+li {
+  padding: 5px;
 }

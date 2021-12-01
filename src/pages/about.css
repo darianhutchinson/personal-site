@@ -9,6 +9,7 @@
   align-items: center;
   width: 30%;
   border: none;
+  background-color: cornsilk;
 }
 
 .headshot {
@@ -43,6 +44,8 @@ p {
   border-radius: 1rem;
   text-decoration: none;
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
 .button:hover {
