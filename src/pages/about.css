@@ -30,12 +30,20 @@
 }
 
 .job-title {
-  font-weight: 900;
+  display: inline-block;
+  font-weight: 800;
+  background-color: #d08856;
+  color: white;
+  padding: 5px;
+  width: 50%;
+  border-radius: 1rem;
+  margin-bottom: 10px;
 }
 
 p {
   margin: 0;
   padding-bottom: 20px;
+  font-weight: 500;
 }
 
 .button {

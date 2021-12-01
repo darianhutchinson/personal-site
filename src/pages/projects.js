@@ -12,7 +12,7 @@ const Projects = () =>{
         <div className="grid-item projects-grid-item">
           <img className="pokemon" src={Pokemon} alt="yellow happy cartoon mouse named Pikachu"></img> 
           <div className="project-button">
-            <a href="https://darianhutchinson.github.io/PokeDash/" target="_blank" class="button">PokeDash Web App</a>
+            <a href="https://darianhutchinson.github.io/PokeDash/" target="_blank" rel="noreferrer" class="button">PokeDash Web App</a>
           </div>
           <div className="project-p">
             <p>React App web application using a free pokemon api</p>
@@ -23,7 +23,7 @@ const Projects = () =>{
         <div className="grid-item projects-grid-item">
           <img className="castle" src={Castle} alt="castle"></img> 
           <div className="project-button">
-            <a href="https://github.com/darianhutchinson/Frupal" target="_blank" class="button">Kingdom of Frupal</a>
+            <a href="https://github.com/darianhutchinson/Frupal" target="_blank" rel="noreferrer" class="button">Kingdom of Frupal</a>
           </div>
           <div className="project-p">
             <p>Computer Console game built in C using ncurses</p>

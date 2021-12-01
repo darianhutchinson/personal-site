@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../img/headshot.jpg'
 import './about.css';
 const About = () =>{
+
   return (
       <body>
         <div className="card-container">

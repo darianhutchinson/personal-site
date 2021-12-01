@@ -1,5 +1,4 @@
 import './App.css';
-import profileImage from './img/headshot.jpg';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from 'react'
 import Navigation from "./components/navbar/navbar"

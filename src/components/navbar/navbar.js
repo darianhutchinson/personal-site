@@ -7,7 +7,6 @@ import {
     NavItem,
     NavbarToggler,
     Collapse,
-    NavLink,
     Nav
 } from 'reactstrap';
 const Navigation = () => {
