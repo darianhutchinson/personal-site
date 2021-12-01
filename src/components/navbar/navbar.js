@@ -21,16 +21,16 @@ const Navigation = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <Link to="/about">About Me</Link>
+                            <Link to="/about" className="nav-link">About Me</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/previousWork">Previous Work</Link>
+                            <Link to="/previousWork" className="nav-link">Previous Work</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/projects">Projects</NavLink>
+                            <Link to="/projects" className="nav-link">Projects</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">Contact</NavLink>
+                            <Link to="/contact" className="nav-link">Contact</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>
