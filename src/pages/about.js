@@ -26,7 +26,6 @@ const About = () =>{
               </p>
             </div>
               
-            <a href="/projects" class="button">Projects</a>
           </div>
         </div>
         
