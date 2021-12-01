@@ -13,10 +13,10 @@ function App() {
       <Navigation />
       <Switch>
         <Route path='/personal-site' exact component={About} />
-        <Route path='/about' exact component={About} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/previousWork' component={PreviousWork} />
-        <Route path='/projects' component={Projects} />
+        <Route path='/pages/about' exact component={About} />
+        <Route path='/pages/contact' component={Contact} />
+        <Route path='/pages/previousWork' component={PreviousWork} />
+        <Route path='/pages/projects' component={Projects} />
       </Switch>
     </Router>
   );
